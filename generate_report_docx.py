@@ -199,7 +199,8 @@ def create_report():
 
     # CHAPTER 9
     add_heading_1("CHAPTER 9: GITHUB LINK AND SHORT CODE")
-    add_body("GitHub Repository URL: https://github.com/user/OS-MindAgent (Repository Initialized & Committed)")
+    add_body("GitHub Repository URL: https://github.com/Sumirawandile/OS_MindAgent")
+
     
     add_heading_2("Core Router Agent Code (agent/router.py)")
     add_body("""
