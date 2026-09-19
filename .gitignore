@@ -1,0 +1,22 @@
+# Environment variables & secrets
+.env
+
+# SQLite Database
+*.db
+os_doubts.db
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary & output files
+output.txt
+scratch.py
+scratch_test_quiz.py
