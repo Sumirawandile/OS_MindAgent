@@ -10,11 +10,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# IDE & OS files
+# IDE & OS & Office files
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+~$*.docx
+~$*.pptx
+
 
 # Temporary & output files
 output.txt
