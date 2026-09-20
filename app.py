@@ -345,5 +345,14 @@ with gr.Blocks(title="OS-MindAgent: Doubt Resolution Workspace") as demo:
             )
 
 if __name__ == "__main__":
-    demo.launch(server_name="127.0.0.1", share=False, css=custom_css, theme=gr.themes.Soft(primary_hue="blue", neutral_hue="slate"))
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT", 7860)),
+        share=False,
+        css=custom_css,
+        theme=gr.themes.Soft(
+            primary_hue="blue",
+            neutral_hue="slate"
+        )
+    )
 
