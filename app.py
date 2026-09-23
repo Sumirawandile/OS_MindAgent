@@ -82,10 +82,6 @@ def handle_refresh_history(topic_filter):
         )
     return "\n\n".join(formatted)
 
-def handle_export_pdf(topic_filter):
-    pdf_filename = generate_pdf_report(topic_filter)
-    return pdf_filename
-
 def handle_clear_history():
     clear_all_history()
     return "✅ History logs cleared successfully.", None
