@@ -4,12 +4,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Groq API Configuration
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 
 
-PRIMARY_MODEL = "groq/compound"
-FAST_MODEL = "groq/compound-mini"
+PRIMARY_MODEL = "openai/gpt-oss-120b"
+FAST_MODEL = "openai/gpt-oss-20b"
 
 # Operating Systems (OS) Subject Syllabus Structure
 OS_SYLLABUS = {
